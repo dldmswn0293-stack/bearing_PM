@@ -48,10 +48,10 @@ with tab1:
 with tab2:
     st.header('데이터 탐색')
     st.subheader('① 베어링별 진동(RMS) 추이 — 열화 곡선')
-    st.image('fig_rms.PNG')
+    st.image('fig_rms.png')
     st.caption('정상 구간에선 평탄하다가, 열화가 시작되면 RMS가 급상승합니다.')
     st.subheader('② 특성 간 상관관계 — 다중공선성 확인')
-    st.image('fig_corr.PNG')
+    st.image('fig_corr.png')
     st.caption('선정한 4개 특성은 서로 상관이 낮아 독립적입니다.')
 
 # ── 탭3: 모델 성능 ──
@@ -60,11 +60,11 @@ with tab3:
     c1, c2 = st.columns(2)
     with c1:
         st.subheader('변수 중요도')
-        st.image('fig_importance.PNG')
+        st.image('fig_importance.png')
         st.caption('RMS가 약 82%로 열화 판정의 핵심입니다.')
     with c2:
         st.subheader('혼동행렬')
-        st.image('fig_cm.PNG')
+        st.image('fig_cm.png')
         st.caption('열화 126건 전부 탐지 (재현율 1.0).')
     st.divider()
     cols = st.columns(4)
