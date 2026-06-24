@@ -1,0 +1,4 @@
+
+streamlit 클라우드 : https://bearingpm-ej.streamlit.app/
+ngrok : https://headgear-custodian-craftsman.ngrok-free.dev
+보고서 : https://drive.google.com/file/d/1XbGiXBvNLUw039NOoSel9KNnKgwAw1_x/view?usp=drive_link
